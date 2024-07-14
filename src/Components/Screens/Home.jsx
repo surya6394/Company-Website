@@ -4,8 +4,9 @@ import Navbar from '../Elements/Navbar'
 const Home = () => {
   return (
     <>
-    This is Home Page.
+      <div className='bg-[#00ffc0]'>
         <Navbar />
+      </div>
     </>
   )
 }

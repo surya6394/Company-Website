@@ -1,14 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
 import Home from './Components/Screens/Home';
+import { Routes } from 'react-router-dom';
+import { createContext, useReducer } from 'react';
+
+export const UserContext = createContext();
 
 function App() {
+  const [state, dispatch] = useReducer();
   return (
     <>
-      <div className='flex justify-center items-center text-6xl'>
-        Hello From Company's Website.
-      </div>
-      <Home />
+      <UserContext.Provider value={{ state, dispatch }}>
+        <Home />
+        <Routes>
+        </Routes>
+      </UserContext.Provider>
+
 
     </>
   );
