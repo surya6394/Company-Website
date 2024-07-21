@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-opacity-75 sticky border-gray-200 shadow-custom">
+    <nav className="bg-bg-clr bg-opacity-75 sticky border-gray-200 shadow-custom">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <div className='text-txt-clr text-xl'>  
           <Link>
