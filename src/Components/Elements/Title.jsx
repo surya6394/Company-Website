@@ -5,7 +5,7 @@ import { IoIosArrowDown } from "react-icons/io";
 const Title = () => {
     return (
         <>
-            <div className='container text-txt-clr'>
+            <div className='container mx-auto text-txt-clr'>
                 <div className='w-[1150px] mx-auto py-16'>
                     <div className='w-[908px] mx-auto'>
                         <h1 className='text-center text-[56px] font-[700] leading-[88px] tracking-wider'>We Design And Develop Digital Products</h1>

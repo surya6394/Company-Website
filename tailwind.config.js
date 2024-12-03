@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       colors: {
         'txt-clr': '#FFFFFF',
+        'txt-clr2': '#57FF64',
         'nav-clr': '#46E247',
         'bg-clr': '#000000',
         'btn-clr': '#57FF64',
