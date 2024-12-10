@@ -20,3 +20,12 @@ export const Button2 = ({ onclick, name}) => {
     )
 }
 
+export const Button3 = ({ onclick, name}) => {
+    return (
+        <>
+            <button type="button" className="text-btn-txtclr bg-btn-clr focus:ring-4 focus:outline-none rounded-full w-[154px] h-[54px] text-[20px] font-[500] text-center dark:bg-btn-clr">
+                {name}
+            </button>
+        </>
+    )
+}

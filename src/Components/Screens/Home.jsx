@@ -2,6 +2,9 @@ import React from 'react'
 import Navbar from '../Elements/Navbar'
 import Title from '../Elements/Title'
 import Services from '../Elements/Services'
+import Achivement from '../Elements/Achivement'
+import Testimonials from '../Elements/Testimonials'
+import Footer from '../Elements/Footer'
 
 const Home = () => {
   return (
@@ -10,6 +13,9 @@ const Home = () => {
         <Navbar />
         <Title />
         <Services />
+        <Achivement />
+        <Testimonials />
+        <Footer />
       </div>
     </>
   )

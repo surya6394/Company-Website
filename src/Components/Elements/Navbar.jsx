@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-bg-clr bg-opacity-75 sticky border-gray-200 shadow-custom">
+    <nav className="bg-bg-clr bg-opacity-70 sticky border-gray-200 shadow-custom">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <div className='text-txt-clr text-xl'>  
           <Link>
@@ -39,13 +39,13 @@ const Navbar = () => {
               <a href="#" className="block py-2 px-3 md:p-0 text-white bg-#46E247 rounded md:bg-transparent md:text-nav-clr md:dark:text-nav-clr" aria-current="page">Home</a>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-nav-clr md:dark:hover:text-nav-clr dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+              <a href="#" className="block py-2 px-3 md:p-0 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-nav-clr md:dark:hover:text-nav-clr dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-nav-clr md:dark:hover:text-nav-clr dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+              <a href="#" className="block py-2 px-3 md:p-0  text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-nav-clr md:dark:hover:text-nav-clr dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-nav-clr md:dark:hover:text-nav-clr dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+              <a href="#" className="block py-2 px-3 md:p-0  text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-nav-clr md:dark:hover:text-nav-clr dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
             </li>
           </ul>
         </div>
