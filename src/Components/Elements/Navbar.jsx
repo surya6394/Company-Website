@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Button1 } from './CustomComponents/Button';
+import LOGO from "../Images/company's-logo.png"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,11 +11,11 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-bg-clr bg-opacity-70 sticky border-gray-200 shadow-custom">
+    <nav className="sticky bg-[rgba(16,16,16,1)]">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <div className='text-txt-clr text-xl'>  
           <Link>
-            LOGO
+            <img src={LOGO} alt="" width={180} />
           </Link>
         </div>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
@@ -36,16 +37,16 @@ const Navbar = () => {
         <div className={`items-center justify-between ${isOpen ? 'flex' : 'hidden'} w-full md:flex md:w-auto md:order-1`} id="navbar-cta">
           <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:border-gray-700">
             <li>
-              <a href="#" className="block py-2 px-3 md:p-0 text-white bg-#46E247 rounded md:bg-transparent md:text-nav-clr md:dark:text-nav-clr" aria-current="page">Home</a>
+              <Link to='/' className="block py-2 px-3 md:p-0 text-white bg-#46E247 rounded md:bg-transparent md:text-nav-clr md:dark:text-nav-clr" aria-current="page">Home</Link>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 md:p-0 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-nav-clr md:dark:hover:text-nav-clr dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+              <Link to='/about' className="block py-2 px-3 md:p-0 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-nav-clr md:dark:hover:text-nav-clr dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</Link>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 md:p-0  text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-nav-clr md:dark:hover:text-nav-clr dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+              <Link to='/services' className="block py-2 px-3 md:p-0  text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-nav-clr md:dark:hover:text-nav-clr dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</Link>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 md:p-0  text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-nav-clr md:dark:hover:text-nav-clr dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+              <Link to='/contact' className="block py-2 px-3 md:p-0  text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-nav-clr md:dark:hover:text-nav-clr dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</Link>
             </li>
           </ul>
         </div>

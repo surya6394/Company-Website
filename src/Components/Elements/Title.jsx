@@ -11,7 +11,7 @@ const Title = () => {
                         <h1 className='text-center text-[56px] font-[700] leading-[80px] tracking-wider'>We Design And Develop Digital Products</h1>
                     </div>
                     <div className='text-center mt-6'>
-                        <p className='text-[18px] font-[300] leading-[34px] '>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem has been the industry's standard dummy text ever since the 1500s, took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p className='text-[18px] font-[300] leading-[34px] '>At our company, we transform ideas into functional and visually captivating digital products. Our expertise spans web and mobile app development, user-centric design, and seamless integrations to help businesses succeed in the digital age.</p>
                     </div>
                     <div className='flex justify-center mt-5'>
                         <Button1 name='About Us' />

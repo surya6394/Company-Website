@@ -13,6 +13,9 @@ module.exports = {
         'btn-clr': '#57FF64',
         'btn-txtclr': '#003512',
       },
+      fontFamily: {
+        montserrat: ['"Montserrat"', "sans-serif"],
+      },
       backgroundImage: {
         'custom-gradient': 'linear-gradient(90deg, rgba(0, 0, 0, 0.7) 28.89%, rgba(23, 23, 23, 0.7) 100%)',
       },
